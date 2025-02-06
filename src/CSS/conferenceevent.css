@@ -1,0 +1,64 @@
+/* .venue-list {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .venue-list-title {
+    text-align: center;
+  }
+  
+  .venue-list-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .venue-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .increase-decrease-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+  .venue-list-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    color: black;
+    gap: 60px;
+    margin: 40px;
+    /* flex-direction: row; */
+    max-width: 1200px;
+  } 
+
+  .venue-list-item {
+    align-items: center;
+    margin-bottom: 10px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    /* padding: 20px; */
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .increase-decrease-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
